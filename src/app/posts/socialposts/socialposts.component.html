@@ -1,0 +1,12 @@
+<span>
+  <div>
+  <button id="newPostBtn">+ New Post</button>
+  <app-post></app-post>
+  </div>
+  <div *ngFor="let postItem of postsList; let i = index">
+    <app-post></app-post>
+  </div>
+  <div ng-repeat="postItem in postsList">
+    <app-post></app-post>
+  </div>
+</span>
